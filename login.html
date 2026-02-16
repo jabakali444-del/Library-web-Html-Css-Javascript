@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="loginsignup.css">
+  <script src="index.js" defer></script>
+
+  <title>Login</title>
+</head>
+
+<body class="auth-body">
+
+  <div class="auth-container">
+    <h1>Login</h1>
+
+    <label for="loginEmail">Email:</label>
+    <input type="email" id="loginEmail" placeholder="Enter your email" required>
+
+    <label for="loginPassword">Password:</label>
+    <input type="password" id="loginPassword" placeholder="Enter your password" required>
+
+    <button type="button" onclick="login()">Login</button>
+
+    <p id="loginMessage"></p>
+
+    <p class="switch-page">
+      New here? <a href="signup.html">Create an account</a>
+    </p>
+  </div>
+
+</body>
+
+</html>

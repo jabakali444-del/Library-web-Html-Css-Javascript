@@ -1,0 +1,127 @@
+body {
+   background-image: linear-gradient(rgba(244,246,247,0.6)), url("images.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.auth-body {
+  background-color: #f4f6f7;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* CONTAINER BOX */
+.auth-container {
+  width: 350px;
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  display: flex;
+  flex-direction: column;
+}
+
+/* TITLE */
+.auth-container h1 {
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 25px;
+}
+
+/* LABELS */
+label {
+  font-weight: bold;
+  margin-top: 10px;
+  color: #2c3e50;
+}
+
+/* INPUTS */
+input {
+  padding: 12px;
+  border-radius: 6px;
+  border: 1px solid #bdc3c7;
+  margin-top: 5px;
+  font-size: 15px;
+}
+
+/* BUTTON */
+button {
+  background-color: #1abc9c;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #16a085;
+}
+
+/* MESSAGES */
+#loginMessage,
+#signupMessage {
+  text-align: center;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+.error {
+  color: #e74c3c;
+}
+
+.success {
+  color: #27ae60;
+}
+
+/* SWITCH TEXT */
+.switch-page {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.switch-page a {
+  color: #1abc9c;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.switch-page a:hover {
+  text-decoration: underline;
+}
+
+/* DARK MODE SUPPORT */
+.dark-mode .auth-body {
+  background-color: #1e1e1e !important;
+}
+
+.dark-mode .auth-container {
+  background-color: #2f2f2f !important;
+  color: #ffffff !important;
+}
+
+.dark-mode input {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.dark-mode label {
+  color: #ffffff;
+}
+
+.dark-mode button {
+  background-color: #27ae60 !important;
+}
+
+.dark-mode button:hover {
+  background-color: #1e874b !important;
+}

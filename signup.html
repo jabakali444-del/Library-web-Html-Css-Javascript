@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="loginsignup.css">
+  <script src="index.js" defer></script>
+  <title>Create Account</title>
+</head>
+
+<body class="auth-body">
+
+  <div class="auth-container">
+    <h1>Create Account</h1>
+
+    <label for="signupEmail">Email:</label>
+    <input type="email" id="signupEmail" placeholder="Enter your email" required>
+
+    <label for="signupPassword">Password:</label>
+    <input type="password" id="signupPassword" placeholder="Enter your password" required>
+
+    <button type="button" onclick="signup()">Create Account</button>
+
+    <p id="signupMessage"></p>
+
+    <p class="switch-page">
+      Already have an account? <a href="login.html">Login</a>
+    </p>
+  </div>
+
+</body>
+
+</html>
